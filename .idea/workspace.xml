@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a6506de-1e88-44e2-bbb3-b9dd3b3d9dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/main.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service-worker/worker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service-worker/worker.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src" />
@@ -105,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606076958554</updated>
-      <workItem from="1606076959627" duration="8189000" />
+      <workItem from="1606076959627" duration="8246000" />
     </task>
     <servers />
   </component>

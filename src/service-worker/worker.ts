@@ -33,7 +33,7 @@ messaging.onBackgroundMessage((payload) => {
         notificationOptions);
 });
 
-self.addEventListener('notificationclick', (event) =>{
+self.addEventListener('notificationclick', (event: any) =>{
     const target = event.notification.data.click_action || '/';
     event.notification.close();
 
@@ -45,7 +45,7 @@ self.addEventListener('notificationclick', (event) =>{
         //@ts-ignore
     }).then((clientList) => {
         // clientList always is empty?!
-        for (var i = 0; i < clientList.length; i++) {
+        for (let i = 0; i < clientList.length; i++) {
             const client = clientList[i];
             if (client.url === target && 'focus' in client) {
                 return client.focus();
