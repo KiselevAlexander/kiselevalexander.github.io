@@ -81,6 +81,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(BASE_PATH, 'static/index.html'),
             title: 'Development',
+            excludeChunks: [ 'firebase-messaging-sw' ],
         }),
         new TSLintPlugin({
             files: ['./src/**/*.ts']
